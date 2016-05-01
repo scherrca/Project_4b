@@ -8,8 +8,7 @@
 @section('content')
     <br><br>
     <br><br>
-    {{ Html::link('/lorem', 'Placeholder1', array('class'=>'button'))}}
-    {{ Html::link('/user', 'Placeholder2', array('class'=>'button'))}}    
+    <p>Link placeholder: add company</p>
     <br><br>
     <br><br>
     <p id="subtitle">How it Works</p>
