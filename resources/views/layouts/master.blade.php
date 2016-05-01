@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        @yield("title", "Project 4")
+        @yield("title", "Career Set")
     </title>
 
     <meta charset='utf-8'>
@@ -28,5 +28,6 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 </body>
 </html>
