@@ -22,7 +22,6 @@
         @yield('content')
     </section>
     <br><br>
-    {{ Html::link('/', 'Home', array('id'=>'home_button'))}}
     <footer>
         <p>&copy; Caito {{ date('Y') }}</p>
     </footer>

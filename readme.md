@@ -5,6 +5,8 @@ http://p4.caito.space
 
 PHP project with Laravel (framework) and Composer (dependency manager), and databases.
 
+This project is called "Career Set: Set Yourself up for Success". This application enables the user to organize information they have gathered on companies (or departments) that they are intrested in, as well as rate each company.
+
 #Demo
 
 Not available yet
@@ -17,23 +19,19 @@ Not available yet
 
 #Packages (Laravel)
 
+None
 
+#Future Features
+- Allow the user to customize a rubric that calculates their final rating. For instance, the user could designate "no on-call requirements" and "provides snacks" as checkpoints, and the final rating would be the sum of each checkpoint.
+- Sort by “most recent action” date
+- Sort by grade
+- If the date is in the future: set alert to notify the user they have an appointment or interview coming up
+- Check boxes:
+Do you need to follow up with the person (i.e. email them after you met them at the meetup)
+If yes: did you?
+Do you need to send them a thank you?
+If yes: did you?
+- Alert the user if the user had said “yes” to the above and did not follow up or send a thank you: send alert
+Output view all as a PDF
 
-
-------------------------------------------------------------------------
-
-# Laravel PHP Framework
-
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+- 
