@@ -1,0 +1,98 @@
+/**********************************
+              GENERAL
+**********************************/
+
+body {
+	background: url('https://s3.amazonaws.com/caitscherr/patterns/dark.jpg');
+}
+
+
+header, header a, h1, h2, body, p, nav, nav ul li, nav ul li a {
+	text-align: center;
+	color: #0e2f44;
+	font-family: 'Raleway';
+	text-decoration: none;
+  list-style: none;
+  color: #c0c0c0;
+}
+
+a:hover {
+  color: #d06014;
+  cursor: pointer;
+}
+
+/**********************************
+              HEADERS
+**********************************/
+
+header, header a {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+/**********************************
+              IMAGES
+**********************************/
+
+#logo {
+	width: 100%;
+}
+
+/**********************************
+            BUTTONS
+**********************************/
+
+.button, #home_button {
+  background-color: #b0e0e6;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+  color: #468499;
+  text-decoration: none;
+}
+
+.button {
+	width: 12em;
+	height: 10em;
+	font-size: 1.5em;
+  padding: 2em;
+  margin: .5em;
+}
+
+#home_button {
+  width: 10em;
+  height: 5em;
+  font-size: 1em; 
+  padding: 1em;
+}
+
+/**********************************
+            OTHER
+**********************************/
+
+#subtitle {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/**********************************
+            FOOTER
+**********************************/
+
+footer
+{
+  clear: both;
+  padding-top: 50px;
+  font-size: 1em;
+  height: 60px;
+  position: center;
+}
