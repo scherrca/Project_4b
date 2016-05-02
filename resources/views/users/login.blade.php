@@ -2,7 +2,10 @@
 
 @section('content')
     <h2>Login</h2>
-    <p>Placeholder</p>
+    <p>Link Placeholder: Create a company</p>
+    <p>Link Placeholder: Update a company</p>
+    <p>Link Placeholder: Delete a company</p>
+    <p>Link Placeholder: View all companies</p>
     <br><br>
     <br>
 @stop  

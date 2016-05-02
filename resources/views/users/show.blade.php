@@ -6,5 +6,5 @@
     <p>Track the important things.</p>
     <p>Organize information on the companies (or departments) you're looking at, and rate each one</p>
     <br>
-    <p>Link placeholder: add company</p>
+    <p>Link placeholder: Register | Login</p>
 @stop  
