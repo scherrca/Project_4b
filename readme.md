@@ -33,5 +33,3 @@ Do you need to send them a thank you?
 If yes: did you?
 - Alert the user if the user had said “yes” to the above and did not follow up or send a thank you: send alert
 Output view all as a PDF
-
-- 

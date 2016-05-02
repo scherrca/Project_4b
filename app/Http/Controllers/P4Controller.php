@@ -16,9 +16,13 @@ class P4Controller extends Controller {
     *************************************/
 
     //Route to the index page
-    //public function getIndex() {
-      //  return view('users.show');
-    //}
+    public function getIndex() {
+      return view('users.show');
+    }
+
+    public function postIndex() {
+      return view('users.show');
+    }
 
     //Route to the form page for Random User
     //public function getRandom() {

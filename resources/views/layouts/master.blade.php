@@ -15,7 +15,8 @@
     <header>
         <img
         src='images/banner.JPG' id='logo' alt='Logo'>
-        @yield('header')
+        <h1>Career Set</h1>
+        <h2>Set Yourself up for Success</h2>
     </header>
 
     <section>
