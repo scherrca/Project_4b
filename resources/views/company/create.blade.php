@@ -1,7 +1,10 @@
 @extends('layouts.master')
 
+@section('header')
+    <h1>Add a Company</h1>
+@stop
+
 @section('content')
-    <h2>Add a Company</h2>
     <form method='POST' action='/create'>
         {{ csrf_field() }}
         <br><br>

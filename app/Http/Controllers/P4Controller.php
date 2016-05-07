@@ -15,9 +15,24 @@ class P4Controller extends Controller {
                   GET VIEWS
     *************************************/
 
-  //Route to the index page
+    //Route to the index page
     public function getIndex() {
         return view('users.show');
+    }
+
+    //Route to the login page
+    public function getLogin() {
+        return view('users.login');
+    }
+
+    //Route to the login page
+    public function getRegister() {
+        return view('users.register');
+    }
+
+    //Route to the login page
+    public function getManage() {
+        return view('users.manage');
     }
 
     //Route to the form page for Random User
@@ -45,7 +60,6 @@ class P4Controller extends Controller {
                  PROCESS DATA
     *************************************/
 
-    
 
 }
 

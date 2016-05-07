@@ -6,5 +6,6 @@
     <p>Track the important things.</p>
     <p>Organize information on the companies (or departments) you're looking at, and rate each one</p>
     <br>
-    <p>Link placeholder: Register | Login</p>
+    {{ Html::link('/register', 'Register', array('class'=>'button'))}}
+    {{ Html::link('/login', 'Login', array('class'=>'button'))}}
 @stop  

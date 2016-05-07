@@ -4,6 +4,21 @@
     //Route to the index page
     Route::get('/', 'P4Controller@getIndex');
 
+    //Route to the login page
+    Route::get('/users/login', 'P4Controller@getLogin');
+    //Route to the login page
+    Route::post('/users/login', 'P4Controller@postLogin');
+
+    //Route to the registration page
+    Route::get('/users/register', 'P4Controller@getRegister');
+    //Route to the registration page
+    Route::post('/users/register', 'P4Controller@postRegister');
+
+    //Route to the manage account page
+    Route::get('/users/manage', 'P4Controller@getManage');
+    //Route to the manage acount page
+    Route::post('/users/manage', 'P4Controller@postManage');
+
     //Route to creating a new company
     Route::get('/company/create', 'P4Controller@getCreate');
     //Route to the post data for creating a company
